@@ -13,6 +13,12 @@ public class Quadrangle2D{
         }
     }
 
+    public boolean isRectanlge()
+    {    if((point1.getX()==point2.getX())&&(point1.getY()==point4.getY())&&(point2.getY()==point3.getY())&&(point3.getX()==point4.getX()))
+        return true;
+    else
+        return false;
+    }
 
 
     }
