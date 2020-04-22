@@ -13,6 +13,13 @@ public class Quadrangle2D{
         }
     }
 
+    public boolean isSquare()
+    {
+        if((point2.getY()-point1.getY()==point3.getY()-point4.getY())&&(point3.getX()-point2.getX()==point4.getX()-point1.getX()))
+            return true;
+        else
+            return false;
+    }
 
 
     }
